@@ -11,11 +11,19 @@
 	<name>TuCuatro Songbook</name>
 	<icon src="inc/tucuatro-splash.png" />
 	
+	<!-- Allow links from TuCuatro to open inapp -->
 	<plugin name="cordova-plugin-whitelist"/>
 	<access origin="https://tucuatro.com" subdomains="true" launch-external="no"/>
 	<allow-navigation href="https://tucuatro.com/*" />
 
 	<allow-intent href="https://tucuatro.com/*" />
+	
+	<!-- Allow youtube -->
+	<preference name="AllowInlineMediaPlayback" value="true" />
+	<preference name="MediaPlaybackRequiresUserAction" value="false" />   
+	<allow-navigation href="*youtube*" />
+	<allow-navigation href="*ytimg*" />
+	<allow-navigation href="*youtube-nocookie*" />
    
 	
 	<description>
