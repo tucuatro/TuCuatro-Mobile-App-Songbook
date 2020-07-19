@@ -4,12 +4,17 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.phonegap.example"
     versionCode = "01"
-    version     = "0.1.0" >
+    version     = "0.1.1" >
 
 	<!-- versionCode is optional and Android only -->
 
 	<name>TuCuatro Songbook</name>
-	<icon src="inc/tucuatro-splash.png" />
+	<icon src="icon.png" />
+	<splash src="splash.png" />
+
+	<platform name="ios">
+	  <icon src="icon-60@3x.png" width="180" height="180" />
+	</platform>
 	
 	<!-- Allow links from TuCuatro to open inapp -->
 	<plugin name="cordova-plugin-whitelist"/>
