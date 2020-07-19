@@ -13,9 +13,9 @@
 	
 	<plugin name="cordova-plugin-whitelist"/>
 	<access origin="https://tucuatro.com" subdomains="true" launch-external="no"/>
-	<allow-intent href="http://*/*" />
-	<allow-intent href="https://*/*" />
+	<allow-navigation href="https://tucuatro.com/*" />
 
+	<allow-intent href="https://tucuatro.com/*" />
    
 	
 	<description>
