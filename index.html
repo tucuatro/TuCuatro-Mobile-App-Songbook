@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>TuCuatro SongBook</title>
+	  
+	<meta http-equiv = "refresh" content = "30; url = https://www.tucuatro.com" />
+
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <access origin="https://tucuatro.com" subdomains="true" launch-external="no"/>
@@ -15,7 +18,7 @@
 
 		// Now safe to use the Codova API
 		//window.location="https://tucuatro.com/songs/"; 
-		//window.open('https://tucuatro.com', '_self ', 'location=yes');
+		window.open('https://tucuatro.com', '_self ', 'location=yes');
 
 	}
 
@@ -23,7 +26,11 @@
   </head>
   <body >
 	  
-	TuCuatro Songbook
+	  <div>TuCuatro Songbook</div>
+	  
+	  <iframe id="myIframe" src="https://www.tucuatro.com" width="100%" height="100%">
+
+</iframe>
 	  
   </body>
 </html>
