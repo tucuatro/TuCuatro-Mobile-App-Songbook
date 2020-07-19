@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TuCuatro SongBook</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    function checkConnection() {
+	 var networkState = navigator.connection.effectiveType;
+	 
+	 return networkState;
+	} 
+
+
+    window.onload = function() {
+		var networkState = checkConnection();
+		 /* load local files if there is not network connection */
+		 if (networkState == 'none') {
+			 console.log('This app requires an internet connection');
+			
+		 } else {
+		 	window.location.href = "https://tucuatro.com/songs/";
+		 }
+
+		
+	}
+	
+ 
+
+
+    </script>
+  </head>
+  <body >
+	  
+	
+	  
+  </body>
+</html>
