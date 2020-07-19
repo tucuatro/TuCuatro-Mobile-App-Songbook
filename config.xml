@@ -8,6 +8,13 @@
 	<!-- versionCode is optional and Android only -->
 
 	<name>TuCuatro Songbook</name>
+	<icon src="tucuatro.png" />
+    ...
+    <platform name="ios">
+    <icon src="inc/tucuatro-splash.png" />
+    <splash src="inc/tucuatro-splash.png" width="320" height="480"/>
+    <splash src="inc/tucuatro-splash.png" width="640" height="960"/>
+    </platform>
 
 	<description>
 	  Learn your favorite songs with chord figures at TuCuatro.
