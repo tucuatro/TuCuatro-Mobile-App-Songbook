@@ -13,7 +13,7 @@
 	<splash src="splash.png" />
 
 	<platform name="ios">
-	  <icon src="icon-60@3x.png" width="180" height="180" />
+	  <icon src="icon.png" width="180" height="180" />
 	</platform>
 	
 	<!-- Allow links from TuCuatro to open inapp -->
