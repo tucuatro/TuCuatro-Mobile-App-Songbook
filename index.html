@@ -4,7 +4,7 @@
     <title>TuCuatro SongBook</title>
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <access origin="http://your.website" subdomains="true"/>
+    <access origin="https://tucuatro.com" subdomains="true" launch-external="no"/>
 
 	<script type="text/javascript" charset="utf-8">
 	
@@ -14,7 +14,10 @@
 	function onDeviceReady() {
 
 		// Now safe to use the Codova API
-		//window.location="https://tucuatro.com/songs/"; }
+		//window.location="https://tucuatro.com/songs/"; 
+		//window.open('https://tucuatro.com', '_self ', 'location=yes');
+
+	}
 
     </script>
   </head>
