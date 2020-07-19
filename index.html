@@ -18,7 +18,9 @@
 		function onDeviceReady() {
 
 			// Now safe to use the Codova API
+			window.open = cordova.InAppBrowser.open;
 			window.location="https://tucuatro.com/es/buscador-letras-canciones/"; 
+			
 			//window.open('https://tucuatro.com', '_self ', 'location=yes');
 
 		}
