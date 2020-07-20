@@ -14,7 +14,6 @@
 	
 	<!-- Allow links from TuCuatro to open inapp -->
 	<plugin name="cordova-plugin-whitelist"/>
-	<plugin name="cordova-plugin-inappbrowser"/>
 	<access origin="https://tucuatro.com" subdomains="true" launch-external="no"/>
 	<allow-navigation href="https://tucuatro.com/*" />
 
@@ -27,7 +26,11 @@
 	<allow-navigation href="*ytimg*" />
 	<allow-navigation href="*youtube-nocookie*" />
 	
-	
+	<!-- Inapp browser plugin. open a native browser window 
+	<plugin name="cordova-plugin-inappbrowser"/>
+	<!-- -->
+	<preference name="EnablEnableViewportScale" value="false" /> 
+
    
 	
 	<description>
