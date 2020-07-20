@@ -10,7 +10,6 @@
 
 	<name>TuCuatro Songbook</name>
 	<icon src="icon.png" />
-	<splash src="splash.png" />
 	
 	<!-- Inapp browser plugin. open a native browser window -->
 	<plugin name="cordova-plugin-inappbrowser"/>
@@ -22,7 +21,7 @@
 	<allow-navigation href="https://tucuatro.com/*" />
 	<allow-intent href="https://tucuatro.com/*" />
 	
-	<preference name="EnableViewportScale" value="yes"/>
+	<preference name="EnableViewportScale" value="false" />
 	
 
 	<!-- Allow youtube -->
