@@ -16,9 +16,10 @@
 	<plugin name="cordova-plugin-whitelist"/>
 	<access origin="https://tucuatro.com" subdomains="true" launch-external="no"/>
 	<allow-navigation href="https://tucuatro.com/*" />
-
 	<allow-intent href="https://tucuatro.com/*" />
 	
+	<preference name="EnableViewportScale" value="false" /> 
+
 	<!-- Allow youtube -->
 	<preference name="AllowInlineMediaPlayback" value="true" />
 	<preference name="MediaPlaybackRequiresUserAction" value="false" />   
@@ -29,8 +30,7 @@
 	<!-- Inapp browser plugin. open a native browser window 
 	<plugin name="cordova-plugin-inappbrowser"/>
 	<!-- -->
-	<preference name="EnablEnableViewportScale" value="false" /> 
-
+	
    
 	
 	<description>
