@@ -18,7 +18,8 @@
 	<allow-navigation href="https://tucuatro.com/*" />
 	<allow-intent href="https://tucuatro.com/*" />
 	
-	<preference name="EnableViewportScale" value="false" /> 
+	<preference name="EnableViewportScale" value="true"/>
+	
 
 	<!-- Allow youtube -->
 	<preference name="AllowInlineMediaPlayback" value="true" />
