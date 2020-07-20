@@ -29,10 +29,7 @@
 	<!-- Needed to use a splash screen -->
     <plugin name="cordova-plugin-splashscreen"/>
 	
-    <plugin name="cordova-plugin-device"                spec="1.0.1" />
-    <plugin name="cordova-plugin-console"               spec="1.0.1" />
-    <plugin name="cordova-plugin-statusbar"             spec="1.0.1" />
-    <plugin name="cordova-plugin-screen-orientation"    spec="1.3.6" />
+    <plugin name="cordova-plugin-device"/>
 	
 	<access origin="https://tucuatro.com" subdomains="true" launch-external="no"/>
 	
