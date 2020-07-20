@@ -19,7 +19,6 @@
 	<preference name="SplashScreenDelay"            value="10000" />
     <preference name="SplashScreen"                 value="screen" />
 	
-	<icon src="icon.png" width="1024" height="1024" />
 
 	<!-- Inapp browser plugin. open a native browser window -->
 	<plugin name="cordova-plugin-inappbrowser"/>
