@@ -28,7 +28,7 @@
 	<allow-navigation href="*ytimg*" />
 	<allow-navigation href="*youtube-nocookie*" />
 	
-	<!-- Inapp browser plugin. open a native browser window 
+	<!-- Inapp browser plugin. open a native browser window -->
 	<plugin name="cordova-plugin-inappbrowser"/>
 	<!-- -->
 	
