@@ -6,18 +6,37 @@
     versionCode = "01"
     version     = "0.1.1" >
 
-	<!-- versionCode is optional and Android only -->
-
 	<name>TuCuatro Songbook</name>
-	<icon src="icon.png" />
 	
+	<description>
+	  Learn your favorite songs with chord figures at TuCuatro.
+	</description>
+
+	<author href="https://tucuatro.com" email="mobile@tucuatro.com">
+	  TuCuatro Corp.
+	</author>
+	
+	<preference name="SplashScreenDelay"            value="10000" />
+    <preference name="SplashScreen"                 value="screen" />
+	
+	<icon src="icon.png" width="1024" height="1024" />
+
 	<!-- Inapp browser plugin. open a native browser window -->
 	<plugin name="cordova-plugin-inappbrowser"/>
-	<!-- -->
 	
 	<!-- Allow links from TuCuatro to open inapp -->
 	<plugin name="cordova-plugin-whitelist"/>
+	
+	<!-- Needed to use a splash screen -->
+    <plugin name="cordova-plugin-splashscreen"/>
+	
+    <plugin name="cordova-plugin-device"                spec="1.0.1" />
+    <plugin name="cordova-plugin-console"               spec="1.0.1" />
+    <plugin name="cordova-plugin-statusbar"             spec="1.0.1" />
+    <plugin name="cordova-plugin-screen-orientation"    spec="1.3.6" />
+	
 	<access origin="https://tucuatro.com" subdomains="true" launch-external="no"/>
+	
 	<allow-navigation href="https://tucuatro.com/*" />
 	<allow-intent href="https://tucuatro.com/*" />
 	
@@ -32,14 +51,36 @@
 	<allow-navigation href="*youtube-nocookie*" />
 	
 	
+	<platform name="ios">
+        <icon src="icon.png" width="180" height="180" />
+        <icon src="icon.png" width="60" height="60" />
+        <icon src="icon.png" width="120" height="120" />
+        <icon src="icon.png" width="76" height="76" />
+        <icon src="icon.png" width="152" height="152" />
+        <icon src="icon.png" width="40" height="40" />
+        <icon src="icon.png" width="80" height="80" />
+        <icon src="icon.png" width="57" height="57" />
+        <icon src="icon.png" width="114" height="114" />
+        <icon src="icon.png" width="72" height="72" />
+        <icon src="icon.png" width="144" height="144" />
+        <icon src="icon.png" width="29" height="29" />
+        <icon src="icon.png" width="58" height="58" />
+        <icon src="icon.png" width="50" height="50" />
+        <icon src="icon.png" width="100" height="100" />
+        <splash src="splash.png" width="320" height="480"/>
+        <splash src="splash.png" width="640" height="960"/>
+        <splash src="splash.png" width="768" height="1024"/>
+        <splash src="splash.png" width="1536" height="2048"/>
+        <splash src="splash.png" width="1024" height="768"/>
+        <splash src="splash.png" width="2048" height="1536"/>
+        <splash src="splash.png" width="640" height="1136"/>
+        <splash src="splash.png" width="750" height="1334"/>
+        <splash src="splash.png" width="1242" height="2208"/>
+        <splash src="splash.png" width="2208" height="1242"/>
+    </platform>
+	
+	
    
 	
-	<description>
-	  Learn your favorite songs with chord figures at TuCuatro.
-	</description>
-
-	<author href="https://tucuatro.com" email="mobile@tucuatro.com">
-	  TuCuatro Corp.
-	</author>
 	
 </widget>
